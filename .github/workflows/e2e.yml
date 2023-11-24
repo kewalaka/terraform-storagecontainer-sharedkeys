@@ -32,6 +32,7 @@ jobs:
       TF_IN_AUTOMATION: 1
       TF_VAR_enable_telemetry: false
     strategy:
+      fail-fast: false
       matrix:
         example: ${{ fromJson(needs.getexamples.outputs.examples) }}
       max-parallel: 5

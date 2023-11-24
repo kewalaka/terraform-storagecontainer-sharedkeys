@@ -26,8 +26,8 @@ Error: Process completed with exit code 1.
 
 ## AZAPI example
 
-This will succeed (but may get cancelled by the failed job)
+This will succeed.
 
 ## Example E2E test
 
-There is a [github action](.github/workflows/e2e.yml) in this repository which tests this behaviour.
+There is a [github action](.github/workflows/e2e.yml) in this repository which tests this behaviour, check this [example run](https://github.com/kewalaka/terraform-storagecontainer-sharedkeys/actions/runs/6985458140) to see the result.

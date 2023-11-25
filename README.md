@@ -2,7 +2,12 @@
 
 This illustrates two different ways to create storage containers when shared key authorisation is disabled.
 
-There are two [examples](./examples), the azapi version works, the azurerm version does not.
+There are two illustrative [examples](./examples):
+
+- the azapi version works
+- the azurerm version does not.  
+
+There is a third (["preferred method" example](./examples/preferred_method/)), that shows the intended use of the storage account module to create the container(s), this simplifies the experience for the module consumer.
 
 Shared Key authorisation is disabled by default in the storage account module as per [Well-Architected Framework (WAF) guidance](https://learn.microsoft.com/en-us/azure/well-architected/service-guides/storage-accounts/security#configuration-recommendations), quoting this guidance:
 
